@@ -13,6 +13,9 @@ C:\Pratik\kafka>.\bin\windows\kafka-topics.bat  --create --zookeeper localhost:2
 **start consumer :**
 C:\Pratik\kafka>.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic pratik --from-beginning
 
+**start Poducer :**
+C:\Pratik\kafka\kafka11>.\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic pratik
+
 **Start Springboot app**
 Go to :
 GET http://localhost:8080/kafka/produce/FirstKafkaMsg
